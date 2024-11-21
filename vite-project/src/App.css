@@ -1,0 +1,225 @@
+@import url('https://fonts.googleapis.com/css2?family=Aboreto&family=Montserrat:wght@200&family=Abril+Fatface&family=Alegreya+Sans+SC&family=Bebas+Neue&family=Cinzel&family=Concert+One&family=Dancing+Script&family=Explora&family=Great+Vibes&family=Kanit:wght@100&family=Mitr&family=My+Soul&family=Noto+Sans+KR:wght@100&family=Orbitron&family=Pacifico&family=Protest+Guerrilla&family=Poppins:wght@500&family=Prompt:ital,wght@1,300&family=Sevillana&family=Spectral+SC&family=Tilt+Prism&display=swap');
+/*
+font-family: 'Montserrat', sans-serif;
+font-family: 'Protest Guerrilla', sans-serif;
+font-family: 'Aboreto', cursive;
+font-family: 'Abril Fatface', cursive;
+font-family: 'Bebas Neue', cursive;
+font-family: 'Cinzel', serif;
+font-family: 'Explora', cursive;
+font-family: 'Great Vibes', cursive;
+font-family: 'Kanit', sans-serif;
+font-family: 'My Soul', cursive;
+font-family: 'Noto Sans KR', sans-serif;
+font-family: 'Orbitron', sans-serif;
+font-family: 'Pacifico', cursive;
+font-family: 'Prompt', sans-serif;
+font-family: 'Sevillana', cursive;
+font-family: 'Spectral SC', serif;
+font-family: 'Tilt Prism', cursive;
+font-family: 'Poppins', sans-serif;
+font-family: 'Alegreya Sans SC', sans-serif;
+font-family: 'Mitr', sans-serif;
+font-family: 'Concert One', cursive;
+font-family: 'Dancing Script', cursive;
+*/
+
+
+*{
+  margin: 0;
+  padding: 0;
+
+}
+
+.back{
+  opacity: 0.8;
+}
+nav{
+ padding: 1rem;
+ font-family: 'Poppins', sans-serif;
+ display: flex;
+ margin: 0 auto;
+ justify-content: space-around;
+ align-items: center;
+
+}
+.navlist{
+  display: flex;
+  padding: 1rem;
+
+}
+.items{
+  display: flex;
+}
+.hire button{
+  font-family: 'Montserrat', sans-serif;
+  background:rgb(56, 59, 59);
+  color: white;
+  padding: 0.8rem 1.9rem;
+  border: none;
+  border-radius: 2px;
+  letter-spacing: 1px;
+  font-weight: 300;
+}
+.navlist .items{
+  margin: 0 1rem;
+  color: rgb(50, 149, 176);
+  display: flex;
+  flex-direction: column;
+  transition: all 0.3s ease-in-out;
+  align-items: center;
+}
+
+ .items p{
+  /* visibility: hidden; */
+  color: rgb(56, 59, 59);
+  font-size: 0.9rem;
+  transition: all 0.1s ease-in-out;
+}
+
+.logo img{
+  transform: rotate(30deg);
+  animation:2s circle infinite;
+  transform: all 3s ease-in-out;
+}
+@keyframes circle{
+  0%{
+      transform: rotate(0deg);
+  }
+  5%{
+    transform: rotate(18deg);
+}
+10%{
+  transform: rotate(36deg);
+}
+15%{
+  transform: rotate(54deg);
+}
+  20%{
+    transform: rotate(72deg);
+}
+25%{
+  transform: rotate(90deg);
+}
+30%{
+  transform: rotate(108deg);
+}
+  35%{
+    transform: rotate(126deg);
+}
+40%{
+  transform: rotate(144deg);
+}
+45%{
+  transform: rotate(162deg);
+}
+50%{
+  transform: rotate(180deg);
+}
+  55%{
+    transform: rotate(198deg);
+}
+60%{
+  transform: rotate(216deg);
+}
+65%{
+  transform: rotate(234deg);
+}
+  70%{
+    transform: rotate(252deg);
+}
+75%{
+  transform: rotate(270deg);
+}
+80%{
+  transform: rotate(288deg);
+}
+  85%{
+    transform: rotate(306deg);
+}
+90%{
+  transform: rotate(324deg);
+}
+95%{
+  transform: rotate(342deg);
+}
+100%{
+  transform: rotate(360deg);
+}
+}
+.title{
+  font-family: 'Cinzel', serif;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  /* margin-top: 11rem; */
+}
+.title p{
+  font-size: 4rem;
+ color: rgb(50, 149, 176);
+ font-weight: bold;
+  /* -webkit-text-stroke:1.5px rgb(207, 187, 39) ; */ 
+  font-family: 'Cinzel', serif;
+}
+
+.title h5{
+   color: #4e4e4e;
+   color: rgb(56, 59, 59);
+   width: 650px;
+   font-size: 0.8rem;
+   font-family: 'Montserrat', sans-serif;
+   margin: 1rem 0;
+   font-weight:BOLD;
+   line-height: 22PX;
+   word-spacing: 0.1rem;
+}
+.title a{
+  text-decoration: none;
+  color:rgb(255, 255, 255);
+  font-size: 0.9rem;
+  cursor: pointer;
+  letter-spacing: 3px;
+  padding: 0.8rem 5rem;
+  z-index: 1;
+  background: rgb(50, 149, 176);
+  border: 0.001px solid rgb(50, 149, 176);
+  font-family: 'Montserrat', sans-serif;
+}
+
+.btn{
+  margin:1.1rem 0rem;
+  
+}
+.title span{
+  font-family: 'Protest Guerrilla', sans-serif;
+  color:rgb(255, 255, 255);
+  font-size: 1.9rem;
+  padding: 4px;
+  text-transform: uppercase;
+  background: rgb(56, 59, 59);
+  letter-spacing: 0.4rem;
+}
+.logo span{
+  color:rgb(26, 24, 24);
+}
+.pic img{
+  border-radius: 50%;
+  background: rgb(56, 59, 59);
+}
+
+header{
+  margin-top: 8rem;
+  display: flex;
+  justify-content: space-evenly;
+  align-items:center;
+  flex-wrap:wrap-reverse;
+}
+
+.navlist .items{
+  display: flex;
+}
+
+/* .skills{
+  background: url('../assets/images/icons8-c-programming-96.png');
+position: sticky;
+} */

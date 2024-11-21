@@ -1,0 +1,76 @@
+.mail-content{
+    display: flex;
+    justify-content: space-around;
+
+}
+.mail-content-left{
+    padding: 2rem 0;
+}
+.mail-content-right{
+    padding: 2rem 0;
+    /* background: url('../assets/images/keyboard.jpg'); */
+   /* margin-left: 7rem; */
+}
+.mail-content-right p{
+    width: 600px;
+    color: #ffffff;
+    font-weight: 600;
+    line-height: 30px;
+}
+.mail{
+    width: 1200px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 9rem auto;
+    /* background:linear-gradient(to right,#83453c 50%,rgb(255, 255, 255) 50%); */ background: url('../assets/images/keyboard.jpg');
+    background-position: cover;
+    background-size: 1200px;
+    box-shadow: 2px 3px 40px rgb(170, 170, 170) ;
+    background-repeat: no-repeat;
+}
+.mail h1{
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: lighter;
+}
+input{
+    padding:0 1rem;
+    width:350px;
+    outline: none;
+    height: 50px;
+    margin: 1rem 0;
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+}
+.input-submit input{
+    font-weight: bolder;
+    font-family: 'Montserrat', sans-serif;
+    background: #ffffff;
+    width: 185px;
+    height: 40px;
+    border: none;
+    border-radius: 50px;
+    color: rgb(39, 39, 39);
+}
+.year{
+    margin-top: 1rem;
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    gap: 4rem;
+}
+h3{
+    margin-top: 1rem;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+}
+.year p{
+    background: #ffffff;
+    padding:0.3rem 0.5rem;
+    border-radius: 2px;
+    color: rgb(117, 117, 117);
+}
